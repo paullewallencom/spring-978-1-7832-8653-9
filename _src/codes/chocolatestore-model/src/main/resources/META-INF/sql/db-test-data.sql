@@ -1,0 +1,4 @@
+insert into product (id, category, description, featured, image_path, price, product_name, version) values (default, null, 'description', true, 'img_path', 20, 'Peanut Clusters', 1)
+insert into product (id, category, description, featured, image_path, price, product_name, version) values (default, null, 'description1', true, 'img_path1', 20, 'English Toffee', 1)
+insert into product (id, category, description, featured, image_path, price, product_name, version) values (default, null, 'description', true, 'img_path', 20, 'Dark Chocolate (Box)', 1)
+insert into product (id, category, description, featured, image_path, price, product_name, version) values (default, null, 'description1', true, 'img_path1', 20, 'Glace Apricot', 1)

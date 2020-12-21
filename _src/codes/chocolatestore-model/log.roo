@@ -1,0 +1,28 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-25 11:24:01
+project --topLevelPackage com.packtpub.springmvc.chocolatestore.model --projectName chocolatestore-model --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-25 11:24:08
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-25 11:24:11
+jpa setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE --databaseName chocolatestore
+entity jpa --class ~.Product --table product --testAutomatically 
+entity jpa --class ~.Category --table category --testAutomatically 
+entity jpa --class ~.Customer --table customer --testAutomatically 
+entity jpa --class ~.Purchase --table purchase --testAutomatically 
+entity jpa --class ~.PurchaseItem --table purchaseitem --testAutomatically 
+focus --class ~.Product
+finder list
+finder add findProductsByFeatured
+service all --interfacePackage ~.service
+focus --class ~.Product
+finder add findProductsByFeatured
+finder list
+finder add findProductsByFeaturedNot
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-26 15:38:57
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-26 15:44:24
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-16 14:47:53
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-16 15:09:20
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-19 16:55:38
+hint finders
+focus --class ~.Customer
+finder list
+finder add findCustomersByNameEquals
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-20 10:03:20
